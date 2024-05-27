@@ -40,3 +40,95 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Experience section */
+.experience {
+    margin-top: 20px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.experience-item h3 {
+    margin-top: 0;
+}
+
+.experience-item p {
+    margin-bottom: 5px;
+}
+
+.experience-item img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+/* Education section */
+.education {
+    margin-top: 20px;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.education-item img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.education-item h3 {
+    margin-top: 0;
+}
+
+.education-item p {
+    margin-bottom: 5px;
+}
+
+
+/* Certification section */
+.certifications {
+    margin-top: 20px;
+}
+
+.certification-item {
+    margin-bottom: 20px;
+}
+
+.certification-item h3 {
+    margin-top: 0;
+}
+
+.certification-item p {
+    margin-bottom: 5px;
+}
+
